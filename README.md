@@ -1,31 +1,29 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End Jr
+# Projeto Econverse 
 
-### Vem ser #Econverse!
 
-Segue abaixo as instruções para a execução do teste.
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br, joao.victor@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+## Tecnologias utilizadas
 
-## Especificações Técnicas
-- Desenvolver a pagina em React conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+- React
+- Typescript
+- Sass
+- React-toastify
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+## Iniciando a aplicação
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+Siga os passos abaixo para poder rodar a aplicação no seu servidor local:
 
-**Boa sorte! ;)**
+1. Clone o repositório na sua máquina 
+
+2. Com o projeto aberto, rode o comando abaixo para instalar todas as dependencias:
+
+```
+npm install
+```
+
+3. Rode o comando abaixo para iniciar o servidor:
+
+```
+npm run dev
+```
+4. Abra no seu navegador o link gerado após o comando, depois de Local:
